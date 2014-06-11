@@ -1,0 +1,22 @@
+konzentration auf sprachfeatures
+
+historie:
+- lang erwartet
+
+fazit:
+- größstes update seit java 5
+- java ist groß (und etwas schwerfällig)
+- ide support ist da, toolhersteller sind am nachrüsten
+- ecosystem?
+
+
+
+laptop:
+java 8 jdk
+eclipse kepler + java 8 support for kepler
+eigener workspace
+java 8 jdk sources anbinden
+projekt importieren
+schriftgröße, views anpassen
+key bindings?
+

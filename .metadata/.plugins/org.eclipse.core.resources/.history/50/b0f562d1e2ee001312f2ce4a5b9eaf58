@@ -1,0 +1,24 @@
+package java8.diamondproblem;
+
+
+public class Diamond {
+
+	interface B {
+		default void run() {
+			System.out.println("B");
+		}
+	}
+
+	interface C {
+		default void run() {
+			System.out.println("C");
+		}
+	}
+
+	class D implements B, C {
+		public void run() {
+			C.super.run();
+		}
+	}
+
+}

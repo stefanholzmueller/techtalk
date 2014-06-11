@@ -1,0 +1,90 @@
+package java8;
+
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.function.Predicate;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class Lambdas {
+
+	private static List<String> list;
+
+	@Before
+	public void setUp() {
+		list = new ArrayList<String>();
+		list.add("");
+		list.add("a");
+		list.add("b");
+		list.add("");
+		list.add("c");
+	}
+
+	@Test
+	public void test1() {
+		for (Iterator<String> iterator = list.iterator(); iterator.hasNext();) {
+			String str = iterator.next();
+			if (str.isEmpty()) {
+				iterator.remove();
+			}
+		}
+		assertThat(list, is(Arrays.asList("a", "b", "c")));
+	}
+
+	private <String> void removeIf(List<String> coll, Predicate<String> pred) {
+		for (Iterator<String> iterator = coll.iterator(); iterator.hasNext();) {
+			String t = iterator.next();
+			if (pred.test(t)) {
+				iterator.remove();
+			}
+		}
+	}
+
+	// interface Predicate<T> {
+	// boolean test(T t);
+	// }
+
+	@Test
+	public void test2() {
+		removeIf(list, new Predicate<String>() {
+			@Override
+			public boolean test(String str) {
+				return str.isEmpty();
+			}
+		});
+		assertThat(list, is(Arrays.asList("a", "b", "c")));
+	}
+
+	@Test
+	public void test3() {
+		removeIf(list, (String str) -> {
+			return str.isEmpty();
+		});
+		removeIf(list, str -> {
+			return str.isEmpty();
+		});
+		removeIf(list, str -> str.isEmpty());
+		removeIf(list, String::isEmpty);
+		assertThat(list, is(Arrays.asList("a", "b", "c")));
+	}
+
+	@Test
+	public void test4() {
+		list.removeIf(String::isEmpty);
+		assertThat(list, is(Arrays.asList("a", "b", "c")));
+	}
+
+	// type inference
+	// return fehlt
+	// block syntax
+	// primitive interfaces
+	// functional interfaces
+	// invokedynamic
+	// strategy pattern
+}

@@ -1,0 +1,17 @@
+package java8.functionalinterfaces;
+
+import java.util.function.Supplier;
+import java8.Lambdas;
+
+public class FunctionalInterfacesApply {
+
+	static class ToStringFactory {
+		<T> String string(Supplier<T> s) {
+			return s.get().toString();
+		}
+	}
+
+	public static void main(String[] args) {
+new ToStringFactory().string(Lambdas::new);
+	}
+}

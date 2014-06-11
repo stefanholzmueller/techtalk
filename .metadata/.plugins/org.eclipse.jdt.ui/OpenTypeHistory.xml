@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.lang.annotation(Repeatable.class[Repeatable" modifiers="9729" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/ext\/jfxrt.jar&lt;javafx.event(EventHandler.class[EventHandler" modifiers="1537" timestamp="1396773214435"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.util(EventListener.class[EventListener" modifiers="1537" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.lang(FunctionalInterface.class[FunctionalInterface" modifiers="9729" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.util(Comparator.class[Comparator" modifiers="1537" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.awt.event(ActionListener.class[ActionListener" modifiers="1537" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.util.stream(Stream.class[Stream" modifiers="1537" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.util.function(Function.class[Function" modifiers="1537" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.util.function(Predicate.class[Predicate" modifiers="1537" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.util.function(Supplier.class[Supplier" modifiers="1537" timestamp="1396773213631"/>
+<typeInfo handle="=java8/C:\/Program Files\/Java\/jre8\/lib\/rt.jar&lt;java.util.function(IntBinaryOperator.class[IntBinaryOperator" modifiers="1537" timestamp="1396773213631"/>
+</typeInfoHistroy>

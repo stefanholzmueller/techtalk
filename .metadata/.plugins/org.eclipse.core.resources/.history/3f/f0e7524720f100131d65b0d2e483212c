@@ -1,0 +1,19 @@
+package java8.functionalinterfaces;
+
+public interface Traits {
+	interface Trait {
+		String getX();
+
+		String getY();
+
+		default void doXY() {
+			System.out.println(getX() + getY());
+		}
+	}
+
+	interface MyTrait extends Trait {
+		default String getY() {
+			return "Y";
+		}
+	}
+}

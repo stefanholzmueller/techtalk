@@ -1,0 +1,13 @@
+1400695991902	Delete element
+1400698145229	Move compilation unit
+1400698308031	Move type 'Author' to new file
+1400698310761	Move type 'Authors' to new file
+1400698317547	Rename type 'Annotations'
+1400698346158	Rename type 'Annotated'
+1400698349481	Rename type 'foo'
+1400698555612	Rename package 'annotations'
+1400698584129	Rename type 'VEM'
+1400701740065	Inline local variable 'stream'
+1400701813842	Extract local variable 'stream'
+1400701822028	Extract local variable 'flatMap'
+1400701850180	Extract local variable 'mapToInt'

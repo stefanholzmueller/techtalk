@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Deprecated"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.eclipse.jdt.annotation.NonNull"/>
+<fullyQualifiedTypeName name="java.beans.ConstructorProperties"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Native"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Repeatable"/>
+<fullyQualifiedTypeName name="java8.Annotations.Authors"/>
+<fullyQualifiedTypeName name="java8.Annotations.Author"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+<fullyQualifiedTypeName name="com.google.caliper.Benchmark"/>
+<fullyQualifiedTypeName name="com.google.caliper.runner.CaliperMain"/>
+<fullyQualifiedTypeName name="java.awt.Event"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.awt.print.Printable"/>
+<fullyQualifiedTypeName name="java8.annotations.Schedule"/>
+<fullyQualifiedTypeName name="java.time.temporal.WeekFields"/>
+<fullyQualifiedTypeName name="java.time.Instant"/>
+<fullyQualifiedTypeName name="java8.staticinterface.MyInterface"/>
+<fullyQualifiedTypeName name="java.util.function.Supplier"/>
+<fullyQualifiedTypeName name="java8.functionalinterfaces.FunctionalInterfacesApply.ToStringFactory"/>
+<fullyQualifiedTypeName name="java8.Lambdas"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+<fullyQualifiedTypeName name="java8.functionalinterfaces.Traits.MyTrait"/>
+<fullyQualifiedTypeName name="java8.functionalinterfaces.Traits.MyClass"/>
+<fullyQualifiedTypeName name="java.util.function.Function"/>
+<fullyQualifiedTypeName name="java.util.function.Predicate"/>
+<fullyQualifiedTypeName name="java8.functionalinterfaces.Overloaded"/>
+</qualifiedTypeNameHistroy>

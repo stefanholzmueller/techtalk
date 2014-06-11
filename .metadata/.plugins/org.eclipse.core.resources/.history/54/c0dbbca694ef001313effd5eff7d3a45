@@ -1,0 +1,14 @@
+package java8.functionalinterfaces;
+
+import java.util.function.Supplier;
+
+public class FunctionalInterfacesApply {
+
+	static class ToStringFactory<T> {
+		<T> T get(Supplier<T> s);
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

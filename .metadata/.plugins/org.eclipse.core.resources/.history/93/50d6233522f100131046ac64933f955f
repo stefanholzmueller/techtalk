@@ -1,0 +1,8 @@
+package java8.functionalinterfaces;
+
+public class Overloaded {
+
+	void print(Function<T, R> f) {
+		System.out.println(f.apply);
+	}
+}

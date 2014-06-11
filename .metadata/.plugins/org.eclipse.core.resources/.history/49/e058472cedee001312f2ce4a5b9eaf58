@@ -1,0 +1,18 @@
+package java8.diamondproblem;
+
+public class Diamond {
+
+	interface B {
+		default void run() {
+			System.out.println("B");
+		}
+	}
+
+	static class D implements B {
+	}
+
+	public static void main(String[] args) {
+		new D().run();
+	}
+
+}

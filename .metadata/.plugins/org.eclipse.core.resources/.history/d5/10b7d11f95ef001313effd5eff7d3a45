@@ -1,0 +1,23 @@
+package java8;
+
+import java.util.function.Supplier;
+
+public class FunctionalInterface {
+
+	static class ToStringFactory {
+		<T> String string(Supplier<T> s) {
+			return s.get().toString();
+		}
+	}
+
+	public static void main(String[] args) {
+		System.out.println(new ToStringFactory().string(Lambdas::new));
+		
+		new Thread(() -> {
+			System.out.println("hi");
+			System.out.println("hi");
+			System.out.println("hi");
+		}).run();
+	}
+
+}
