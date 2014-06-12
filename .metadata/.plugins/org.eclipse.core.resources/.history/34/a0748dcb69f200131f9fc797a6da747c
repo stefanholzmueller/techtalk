@@ -16,9 +16,16 @@ public class DiamondProblem {
 		default void print() {
 			System.out.println("C");
 		}
+
+		static void printFoo() {
+			System.out.println("foo");
+		}
 	}
 
-	static class D implements B {
+	static class D implements B, C {
+		public void print() {
+			C.super.print();
+		}
 	}
 
 	public static void main(String[] args) {
