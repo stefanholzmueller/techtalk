@@ -95,5 +95,4 @@ public class Lambdas {
 	public void testStandard() {
 		list.removeIf(String::isEmpty);
 	}
-
 }

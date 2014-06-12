@@ -96,4 +96,11 @@ public class Lambdas {
 		list.removeIf(String::isEmpty);
 	}
 
+	// type inference
+	// return fehlt
+	// block syntax
+	// primitive interfaces
+	// functional interfaces
+	// invokedynamic
+	// strategy pattern
 }
